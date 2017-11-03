@@ -1,0 +1,6 @@
+jobs:
+  main:
+    image: node:6
+    requires: ~commit
+    steps:
+      - echo: echo hello
